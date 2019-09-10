@@ -1,1 +1,4 @@
 .DS_Store
+env.py
+.pynb_checkpoints/
+__pycache__
