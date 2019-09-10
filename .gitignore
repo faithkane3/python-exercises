@@ -2,3 +2,5 @@
 env.py
 .pynb_checkpoints/
 __pycache__
+.vscode/
+Thumbs.db
