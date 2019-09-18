@@ -35,7 +35,7 @@ while True:
     elif choice == "2":
         try:
             wait(1)
-            debit = float(input("How much would you like to withdrawal? \n"))
+            debit = float(input("How much would you like to withdrawal? \n$"))
             if debit > 0:
                 with open("checkbook_info.txt", "r") as r:
                     balance = r.readline()
