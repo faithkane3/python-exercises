@@ -18,8 +18,6 @@ while True:
         continue
     
     
-    
-    
     # choice 1 will print out current balance and return to prompt for 1, 2, 3, or 4
     if choice == "1":
         wait(1)
@@ -27,8 +25,6 @@ while True:
         print(f"Your balance is ${r.readline()} \n")
         r.close()
         wait(1)
-        # print(f"Your current balance is ${balance}.\n")
-        # wait(1)
         continue
 
     # choice 2 will subtract a debit from the balance
